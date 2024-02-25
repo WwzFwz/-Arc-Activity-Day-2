@@ -1,0 +1,81 @@
+
+
+html{
+  background-color: #365486;
+  color: #201658;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    /* position: relative;
+    bottom: 20vh; */
+    font-family: 'Times New Roman', Times, serif, 'sans serif';
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.nameOrg{
+    color: #070F2B
+}
+
+#content{
+    margin-right: 25%;
+    margin-left: 25% ;
+}
+.top-button{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-linktre > .logo {
+  padding-left: 25%;
+  padding-right:25% ;
+
+}
+
+.about-linktre .logo img{ 
+  width: 10rem;
+  height: 10rem;
+}
+
+.content-link > :not(.link5){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1  0px;
+    font-size : 1rem; 
+    background-color:#7FC7D9;
+    margin:2%;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #201658;
+
+}
+
+.top-button> *{
+  background-color: #7FC7D9;
+  border-radius: 10px;
+}
+.top-button > .titik-tiga  {
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+}
+
+button.footer{
+  background-color: #7FC7D9;
+  padding: 0.75rem;
+  border-radius: 10px;
+  opacity: 0.7;
+  margin-top: 2rem;
+}
+
+@media (max-width: 600px){
+  #content{
+    margin-right: 3px;
+    margin-left: 3px
+  }
+  
+}
